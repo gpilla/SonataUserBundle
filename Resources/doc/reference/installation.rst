@@ -232,7 +232,7 @@ At this point, the bundle is functional, but not quite ready yet. You need to ge
 
 .. code-block:: bash
 
-    php app/console sonata:easy-extends:generate SonataUserBundle -d src
+    php bin/console sonata:easy-extends:generate SonataUserBundle -d src
 
 If you specify no parameter, the files are generated in ``app/Application/SonataUserBundle`` but you can specify the path with ``--dest=src``
 
